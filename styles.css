@@ -1,0 +1,108 @@
+/* Reset default margin and padding */
+body, h1, h2, p, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Set header styles */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Set navigation styles */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #444;
+}
+
+/* Set main content styles */
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Set music container styles */
+.music-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.music-item {
+  width: 250px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.music-item img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.music-item h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.music-item p {
+  margin-bottom: 10px;
+}
+
+/* Set footer styles */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
